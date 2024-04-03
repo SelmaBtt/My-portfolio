@@ -1,0 +1,16 @@
+@import url(Root.css);
+
+.NavWrapper{
+    width: 70px;
+    height: 100vh;
+    position: fixed;
+    /* positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    gap: 28px;
+    background-color: var(--gray-detail-color);
+    border-left: 10px outset var(--border-color);
+}

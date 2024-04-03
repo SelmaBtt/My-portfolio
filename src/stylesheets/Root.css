@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root{
+  /* Colors */
+  --background: #008484;
+  --border-color: #6B6B6B;
+  --gray-detail-color: #C0C0C0;
+  --tab-color: #000084
+
+  /* Fonts */
+  --title-font: "Press Start 2P", system-ui;
+  
+}
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+}
