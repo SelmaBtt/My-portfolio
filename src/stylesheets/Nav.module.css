@@ -4,6 +4,7 @@
     width: 70px;
     height: 100vh;
     position: fixed;
+    
     /* positioning */
     display: flex;
     flex-direction: column;

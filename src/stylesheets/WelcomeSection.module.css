@@ -1,5 +1,57 @@
 @import url(Root.css);
 
+.divWrapper{
+    margin: 65px 0 0 -183px;
+    width: 1470px;
+}
+
+/* Tab section */
 .header{
+    background-color: var(--tab-color);
+    border: var(--border);
+    padding: 40px 0 29px 240px;
+}
+
+.title{
     font-family: var(--title-font);
+    color: #ffff;
+    font-size: 60px;
+    margin: 0;
+}
+
+/* Second/content section */
+.div{
+    font-size: inherit;
+    border: var(--border);
+    margin-top: -10px;
+    background-color: #ffff;
+
+    /* grids */
+    display: grid;
+    grid-template-areas: 
+        "title aside"
+        "subtitle aside";
+    gap: 0 104px;
+    grid-template-columns: min-content auto;
+}
+.div h1{
+    grid-area: title;
+
+    font-family: var(--title-font);
+    font-size: 80px;
+    width: 560px;
+    margin: 225px auto 0 240px;
+}
+.div p{
+    grid-area: subtitle;
+
+    font-size: 32px;
+    margin: 0 auto 288px 240px;
+}
+
+.div div{
+    grid-area: aside;
+    align-self: end; 
+    display: flex;
+    align-content: end;
 }

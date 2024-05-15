@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap');
 
 :root{
   /* Colors */
   --background: #008484;
   --border-color: #6B6B6B;
   --gray-detail-color: #C0C0C0;
-  --tab-color: #000084
+  --tab-color: #000084;
 
   /* Fonts */
   --title-font: "Press Start 2P", system-ui;
+  --text-font: "Trispace", sans-serif;
+
+  /* Border */
+  --border: 10px solid #6B6B6B;
   
 }
 
 body{
   box-sizing: border-box;
   margin: 0;
+  font-family: var(--text-font);
+  background-color: var(--background);
 }
