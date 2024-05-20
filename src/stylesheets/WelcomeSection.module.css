@@ -42,11 +42,16 @@
     width: 560px;
     margin: 225px auto 0 240px;
 }
-.div p{
+.subtitle{
     grid-area: subtitle;
 
     font-size: 32px;
     margin: 0 auto 288px 240px;
+}
+
+.svgWrapper{
+    font-family: var(--title-font);
+    height: 650px;
 }
 
 .div div{
