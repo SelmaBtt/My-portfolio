@@ -1,0 +1,22 @@
+@import url('../Root.css');
+
+.header h1{
+    font-size: var(--header-font-size);
+    margin: 0;
+}
+
+.header{
+    font-family: var(--title-font);
+    color: var(--title-font-color);
+    background-color: var(--tab-color);
+    border: var(--border);
+    padding: 19px 0 19px 34px;
+    width: 507px;
+}
+
+.textContainer{
+    margin-top: -10px;
+    background-color: var(--div-background);
+    border: var(--border);
+    font-size: 32px;
+}
