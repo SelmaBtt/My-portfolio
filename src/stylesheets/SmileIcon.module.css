@@ -16,3 +16,10 @@
 .svgWrapper svg path {
     animation: animatePath 3s infinite;
 }
+
+.svgWrapper{
+    display: flex;
+    justify-content: center;
+    margin: 310px auto 310px 0;
+    width: calc(100vw - 70px) !important;
+}
