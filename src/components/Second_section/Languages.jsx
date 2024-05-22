@@ -1,4 +1,4 @@
-import styled from "../../stylesheets/Second_section_stylesheets/Languages.module.css"
+import styled from "../../stylesheets/Second_section_stylesheets/Experience.module.css"
 
 const Languages = () => {
     return(
@@ -10,6 +10,7 @@ const Languages = () => {
                 <ul>
                     <li>Swedish</li>
                     <li>English</li>
+                    <li>Norwegian</li>
                 </ul>
             </div>
         </div>
