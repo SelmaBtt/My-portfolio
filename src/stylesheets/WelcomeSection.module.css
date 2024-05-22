@@ -14,7 +14,7 @@
 
 .title{
     font-family: var(--title-font);
-    color: #ffff;
+    color: var(--title-font-color);
     font-size: 60px;
     margin: 0;
 }
@@ -24,7 +24,7 @@
     font-size: inherit;
     border: var(--border);
     margin-top: -10px;
-    background-color: #ffff;
+    background-color: var(--div-background);
 
     /* grids */
     display: grid;

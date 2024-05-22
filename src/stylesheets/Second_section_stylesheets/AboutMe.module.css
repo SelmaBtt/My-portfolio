@@ -1,0 +1,27 @@
+@import url('../Root.css');
+
+.header{
+    background-color: var(--tab-color);
+    border: var(--border);
+    color: var(--title-font-color);
+    font-family: var(--title-font);
+    padding: 19px 0 19px 50px;
+    width: 714px;
+}
+
+.header h1{
+    margin: 0;
+}
+
+.textWrapper{
+    margin-top: -10px;
+    background-color: var(--div-background);
+    border: var(--border);
+    width: 644px;
+    height: 411px;
+    padding: 33px 60px 0 60px;
+}
+
+.textWrapper p {
+    margin: 0;
+}

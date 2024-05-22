@@ -4,16 +4,19 @@
 :root{
   /* Colors */
   --background: #008484;
-  --border-color: #6B6B6B;
+  --border-color: #959494;
   --gray-detail-color: #C0C0C0;
   --tab-color: #000084;
+  --title-font-color: white;
+  --div-background: white;
 
   /* Fonts */
   --title-font: "Press Start 2P", system-ui;
   --text-font: "Trispace", sans-serif;
+  --header-font-size: 34px;
 
   /* Border */
-  --border: 10px solid #6B6B6B;
+  --border: 10px ridge #9e9c9c;
   
 }
 
