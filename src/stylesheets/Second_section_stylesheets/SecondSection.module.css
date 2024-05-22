@@ -1,0 +1,25 @@
+.container{
+    /* grids */
+    display: grid;
+    grid-template-areas: 
+        "me me"
+        "lang skills";
+    gap: 20px;
+
+    /* positioning */
+    margin-right: 70px;
+}
+
+.firstElement{
+    grid-area: me;
+    justify-self: center;
+}
+
+.secondElement{
+    grid-area: lang;
+    margin-top: -90px;
+}
+
+.thirdElement{
+    grid-area: skills;
+}
