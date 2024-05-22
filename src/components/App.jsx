@@ -3,6 +3,7 @@ import '../stylesheets/Root.css'
 import Nav from './NavBar/Nav'
 import WelcomeSection from './WelcomeSection'
 import styled from '../stylesheets/App.module.css'
+import SmileIcon from './SmileIcon'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className={styled.appContainer}>
       <Nav />
       <WelcomeSection />
+      <SmileIcon />
     </div>
   )
 }
