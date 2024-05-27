@@ -6,22 +6,22 @@
 
 .header{
     background-color: var(--tab-color);
-    padding: 2.5px 0;
     border: var(--border);
+    font-family: var(--title-font);
 
     display: grid;
     grid-template-areas: 
         "codeTab figTab title larrow rarrow";
     grid-template-columns: 173px 173px 645px 25px 73px;
-    /* gap: 20px; */
 }
 
-.header p:first-child{
+.codeTab{
     grid-area: codeTab;
+    justify-self: end;
     align-self: end;
 }
 
-.header p:nth-child(2){
+.figmaTab{
     grid-area: figTab;
     align-self: end;
 }
@@ -29,7 +29,7 @@
 .header h1{
     grid-area: title;
     font-size: 34px;
-    padding-left: 67px;
+    padding: 2.5px 0 2.5px 67px;
 }
 
 .larrow{
