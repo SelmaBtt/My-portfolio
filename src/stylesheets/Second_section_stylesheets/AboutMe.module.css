@@ -3,8 +3,6 @@
 .header{
     background-color: var(--tab-color);
     border: var(--border);
-    color: var(--title-font-color);
-    font-family: var(--title-font);
     padding: 19px 0 19px 50px;
     width: 684px;
 }

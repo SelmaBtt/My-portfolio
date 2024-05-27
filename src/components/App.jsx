@@ -5,6 +5,7 @@ import WelcomeSection from './WelcomeSection'
 import styled from '../stylesheets/App.module.css'
 import SmileIcon from './SmileIcon'
 import SecondSection from './Second_section/SecondSection'
+import Projects from './Projects/Projects'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <WelcomeSection />
       <SmileIcon />
       <SecondSection />
+      <Projects />
     </div>
   )
 }

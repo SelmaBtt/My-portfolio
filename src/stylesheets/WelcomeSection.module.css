@@ -37,7 +37,7 @@
 .div h1{
     grid-area: title;
 
-    font-family: var(--title-font);
+    color: rgb(0, 0, 0);
     font-size: 80px;
     width: 560px;
     margin: 225px auto 0 240px;

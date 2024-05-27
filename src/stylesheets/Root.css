@@ -26,3 +26,8 @@ body{
   font-family: var(--text-font);
   background-color: var(--background);
 }
+
+body h1{
+  font-family: var(--title-font);
+  color: var(--title-font-color);
+}
