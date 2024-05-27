@@ -1,0 +1,6 @@
+@import url('../Root.css');
+
+.img{
+    border: var(--border);
+    height: 321px;
+}
