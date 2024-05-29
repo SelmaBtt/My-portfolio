@@ -1,26 +1,39 @@
-.contentWrapper {
-    display: grid;
-    grid-template-columns: auto 60px auto 321px auto;
+/* Grid area for CodeContent */
+.codeWrapper {
     grid-template-areas: 
-        ". info demo img ."
+        ". extra demo img ."
         "larrow title title img rarrow"
         ". text text img .";
+}
+
+/* Grid area for FigmaContent */
+.figmaWrapper {
+    grid-template-areas:
+        ". extra . img ."
+        "larrow title title img rarrow"
+        ". text text img .";
+}
+
+.codeWrapper, .figmaWrapper{
+    display: grid;
+    grid-template-columns: auto 60px auto 321px auto;
     margin: 0 auto;
     padding: 82px 34px;
 }
 
-
-.info {
-    grid-area: info;
+.extraDescription{
+    grid-area: extra;
 }
 
-.info, .demoBtn{align-self: end;}
+.extraDescription, .demoBtn{
+    align-self: end;
+}
 
 .demoBtn {
     grid-area: demo;
 }
 
-.proTitle {
+.title {
     grid-area: title;
     align-self: center;
 
@@ -29,7 +42,7 @@
     font-size: 32px;
 }
 
-.proTitle, .description{margin: 0;}
+.title, .description{ margin: 0; }
 
 .description {
     grid-area: text;
@@ -46,7 +59,7 @@
     border: var(--border);
 }
 
-.img, .nexBtn{justify-self: end;}
+.img, .nexBtn{ justify-self: end; }
 
 .preBtn {
     grid-area: larrow;
@@ -62,6 +75,7 @@
     cursor: pointer;
 }
 
+/* Tooltip only on CodeContent */
 .skillsToolTip{
     max-width: 200px !important;
     background-color: white !important;
