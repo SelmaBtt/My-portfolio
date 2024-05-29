@@ -31,3 +31,7 @@
     flex-direction: column;
     gap: 50px;
 }
+
+.media svg{
+    cursor: pointer;
+}
