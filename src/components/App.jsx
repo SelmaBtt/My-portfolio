@@ -6,6 +6,7 @@ import styled from '../stylesheets/App.module.css'
 import SmileIcon from './SmileIcon'
 import SecondSection from './Second_section/SecondSection'
 import Projects from './Projects/Projects'
+import ContactSection from './Last_section/ContactSection'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <SmileIcon />
       <SecondSection />
       <Projects />
+      <ContactSection />
     </div>
   )
 }
