@@ -16,3 +16,28 @@
     background-color: var(--gray-detail-color);
     border-left: var(--border);
 }
+
+.NavWrapper div{
+    font-family: var(--title-font);
+    font-size: 20px;
+    right: 0;
+}
+
+.NavWrapper h2{
+    margin: 12px;
+    white-space: nowrap
+}
+
+.startModal, 
+.aboutMeModal, 
+.projectsModal, 
+.contactModal{
+    position: absolute;
+    right: 70px;
+    background-color: var(--gray-detail-color);
+    border: var(--border);
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.NavWrapper div svg{ cursor: pointer; }
