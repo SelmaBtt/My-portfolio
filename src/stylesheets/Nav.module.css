@@ -2,6 +2,7 @@
     width: 60px;
     height: 100vh;
     position: fixed;
+    z-index: 1;
     
     /* positioning */
     display: flex;

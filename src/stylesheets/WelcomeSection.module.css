@@ -1,4 +1,14 @@
+@keyframes openTab{
+    0%{
+        transform: scale(1, 0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 .divWrapper{
+    animation: openTab 0.3s;
     margin: 65px auto 0 -183px;
     width: 1470px;
 }
