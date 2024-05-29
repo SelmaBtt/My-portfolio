@@ -1,6 +1,6 @@
 .container{
-    /* margin: 65px auto 0 -183px; */
-    /* width: 1470px; */
+    margin: 65px auto 0 -183px;
+    width: 1470px;
 }
 
 /* Tab section */
@@ -8,10 +8,14 @@
     background-color: var(--tab-color);
     border: var(--border);
     padding: 40px 0 29px 240px;
-    height: 129px;
+    height: 60px;
 }
 
 .contentWrapper{
+    display: flex;
+    align-items: center;
+    padding: 61px 88px 61px 248px;
+    gap: 229px;
     font-size: inherit;
     border: var(--border);
     margin-top: -10px;
@@ -20,4 +24,10 @@
 
 .speechBubble{
     font-family: var(--title-font);
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
