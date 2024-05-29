@@ -1,10 +1,10 @@
 import styled from '../../stylesheets/Project_stylesheets/Projects.module.css'
-import { useState, useContext } from "react"
+import { useContext } from "react"
 import CodeHeader from './CodeHeader'
 import CodeContent from './CodeContent'
 import FigmaHeader from './FigmaHeader'
 import FigmaContent from './FigmaContent'
-import { TrueFalseContext } from '../context/TrueFalseContextProvider'
+import { TrueFalseContext } from '../../context/TrueFalseContextProvider'
 
 const Projects = () => {
     const { isCodeTrue, isFigmaTrue, codeTabHandler, figTabHandler } = useContext(TrueFalseContext);

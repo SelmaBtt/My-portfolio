@@ -1,6 +1,6 @@
 import styled from '../../stylesheets/Project_stylesheets/Projects.module.css'
 import { useContext } from 'react'
-import { TrueFalseContext } from '../context/TrueFalseContextProvider'
+import { TrueFalseContext } from '../../context/TrueFalseContextProvider'
 
 const CodeHeader = () => {
     

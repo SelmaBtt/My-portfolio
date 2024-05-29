@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom';
 import App from './components/App.jsx'
-import TrueFalseContext from './components/context/TrueFalseContextProvider.jsx';
+import TrueFalseContext from './context/TrueFalseContextProvider.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <TrueFalseContext>
