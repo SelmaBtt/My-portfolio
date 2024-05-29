@@ -1,7 +1,5 @@
-@import url('../Root.css');
-
 .container{
-    margin-right: 70px;
+    margin: 305px 70px 305px 0;
 }
 
 .header{

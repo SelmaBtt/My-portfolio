@@ -1,15 +1,14 @@
-@import url('../Root.css');
-
 .contentWrapper {
     display: grid;
-    grid-template-columns: auto auto 321px auto ;
+    grid-template-columns: auto 60px auto 321px auto;
     grid-template-areas:
-        ". link img ."
-        "larrow figTitle img rarrow"
-        ". text img .";
+        ". link demo img ."
+        "larrow figTitle figTitle img rarrow"
+        ". text text img .";
     margin: 0 auto;
     padding: 82px 34px;
 }
+
 
 .linkBtn{align-self: end;}
 

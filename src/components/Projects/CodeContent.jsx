@@ -1,7 +1,7 @@
 import styled from '../../stylesheets/Project_stylesheets/CodeContent.module.css';
 import allProjects from '../../assets/ProjectList.js';
 import { useState } from 'react';
-import { Tooltip as ReactTooltip } from "react-tooltip";
+import { Tooltip } from "react-tooltip";
 
 const CodeContent = () => {
     const [projects] = useState(allProjects);
@@ -41,11 +41,10 @@ const CodeContent = () => {
             <svg className={styled.nexBtn} onClick={nextSlideHandler} xmlns="http://www.w3.org/2000/svg" width="106" height="66" viewBox="0 0 106 66" fill="none">
                 <path d="M15.5 3H90.5M90.5 8H95.5M98 10.5V20.5M103 20.5V45.5M98 45.5V55.5M93 55.5V60.5M90.5 63H15.5M15.5 58H10.5M8 55.5V45.5M3 45.5V20.5M8 20.5V10.5M13 10.5V5.5M36 17.5H41M41 22.5H46M46 27.5H51M51 32.5H56M46 37.5H51M41 42.5H46M36 47.5H41M56 47.5H61M61 42.5H66M66 37.5H71M71 32.5H76M66 27.5H71M61 22.5H66M56 17.5H61" stroke="#6B6B6B" strokeWidth="5"/>
             </svg>
-            <ReactTooltip
+            <Tooltip
                 id="skillsInfo"
-                place="top-end"
                 className={styled.skillsToolTip}
-            >{currentProject.skills.join(', ')}</ReactTooltip>
+            >{currentProject.skills.join(', ')}</Tooltip>
         </div>
     );
 }

@@ -1,8 +1,6 @@
-@import url('../Root.css');
-
 .contentWrapper {
     display: grid;
-    grid-template-columns: auto 60px auto auto auto;
+    grid-template-columns: auto 60px auto 321px auto;
     grid-template-areas: 
         ". info demo img ."
         "larrow title title img rarrow"
@@ -10,6 +8,7 @@
     margin: 0 auto;
     padding: 82px 34px;
 }
+
 
 .info {
     grid-area: info;
@@ -64,8 +63,10 @@
 }
 
 .skillsToolTip{
+    max-width: 200px !important;
     background-color: white !important;
     border: var(--border);
+    border-radius: 0px !important;
     color: black !important;
     opacity: 1 !important;
 }
