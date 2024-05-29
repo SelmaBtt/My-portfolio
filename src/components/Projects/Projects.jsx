@@ -15,10 +15,10 @@ const Projects = () => {
                 { isCodeTrue && <CodeHeader /> }
                 { isFigmaTrue && <FigmaHeader /> }
                 <h1>Projects</h1>
-                <svg className={styled.larrow} onClick={codeTabHandler} xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                <svg className={styled.larrow} onClick={figTabHandler} xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
                     <path d="M15 2.5H10M10 7.5H5M5 12.5H0M10 17.5H5M15 22.5H10" stroke="white" strokeWidth="5"/>
                 </svg>
-                <svg className={styled.rarrow} onClick={figTabHandler} xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
+                <svg className={styled.rarrow} onClick={codeTabHandler} xmlns="http://www.w3.org/2000/svg" width="15" height="25" viewBox="0 0 15 25" fill="none">
                     <path d="M0 2.5H5M5 7.5H10M10 12.5H15M5 17.5H10M0 22.5H5" stroke="white" strokeWidth="5"/>
                 </svg>
             </header>

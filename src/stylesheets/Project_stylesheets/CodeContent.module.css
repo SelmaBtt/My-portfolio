@@ -62,3 +62,10 @@
 
     cursor: pointer;
 }
+
+.skillsToolTip{
+    background-color: white !important;
+    border: var(--border);
+    color: black !important;
+    opacity: 1 !important;
+}

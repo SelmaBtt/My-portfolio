@@ -26,7 +26,7 @@ const FigmaContent = () => {
             <a className={styled.linkBtn} href={currentFigProject.src}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="215" height="46" viewBox="0 0 215 46" fill="none">
                     <path d="M10.5 3L205 2.5M207.5 5V10M212.5 10V35M207.5 35V40M205 42.5L10.5 43M8 40.5V35.5M3 35.5V10.5M8 10.5V5.5" stroke="#6B6B6B" strokeWidth="5"/>
-                    <text x="32" y="32" fontSize="20" fill="black">Link to Figma</text>
+                    <text x="30" y="32" fontSize="20" fill="black">Link to Figma</text>
                 </svg>
             </a>
             <h2 className={styled.figTitle}>{currentFigProject.title}</h2>
