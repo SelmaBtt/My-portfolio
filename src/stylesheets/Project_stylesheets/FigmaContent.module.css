@@ -2,28 +2,23 @@
 
 .contentWrapper {
     display: grid;
-    grid-template-columns: auto 60px auto auto auto;
-    grid-template-areas: 
-        ". info demo img ."
-        "larrow title title img rarrow"
-        ". text text img .";
-    gap: 30px 0;
+    grid-template-columns: auto auto 321px auto ;
+    grid-template-areas:
+        ". link img ."
+        "larrow figTitle img rarrow"
+        ". text img .";
     margin: 0 auto;
     padding: 82px 34px;
 }
 
-.info {
-    grid-area: info;
+.linkBtn{align-self: end;}
+
+.linkBtn {
+    grid-area: link;
 }
 
-.info, .demoBtn{align-self: end;}
-
-.demoBtn {
-    grid-area: demo;
-}
-
-.proTitle {
-    grid-area: title;
+.figTitle {
+    grid-area: figTitle;
     align-self: center;
 
     width: 347px;
@@ -31,11 +26,10 @@
     font-size: 32px;
 }
 
-.proTitle, .description{margin: 0;}
+.figTitle, .description{margin: 0;}
 
 .description {
     grid-area: text;
-
     height: 115px;
     width: 334px;
     font-size: 20px;
@@ -43,9 +37,8 @@
 
 .img {
     grid-area: img;
-
-    height: 393px;
     border: var(--border);
+    height: 393px;
 }
 
 .img, .nexBtn{justify-self: end;}
