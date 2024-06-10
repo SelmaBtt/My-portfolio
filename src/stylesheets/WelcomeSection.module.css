@@ -1,6 +1,9 @@
 @keyframes openTab{
     0%{
-        transform: scale(1, 0);
+        transform: scale(0.5, 0.01);
+    }
+    40%{
+        transform: scale(1, 0.01);
     }
     100%{
         transform: scale(1);

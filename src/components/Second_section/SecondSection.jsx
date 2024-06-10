@@ -10,10 +10,10 @@ const SecondSection = () => {
                 <AboutMe />
             </div>
             <div className={styled.secondElement}>
-                <Languages />
+                <Skills />
             </div>
             <div className={styled.thirdElement}>
-                <Skills />
+                <Languages />
             </div>
         </div>
     )

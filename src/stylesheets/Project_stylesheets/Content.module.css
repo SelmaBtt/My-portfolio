@@ -30,7 +30,11 @@
 
 .info, .extraDescription, .demoBtn{ align-self: end; }
 
-.demoBtn { grid-area: demo; }
+.demoBtn { 
+    grid-area: demo; 
+
+    display: inline-flex;
+}
 
 .title {
     grid-area: title;
@@ -74,7 +78,7 @@
     cursor: pointer;
 }
 
-/* CSS only for CodeContent */
+/* CSS only for CodeContent component */
 .skillsToolTip{
     max-width: 200px !important;
     background-color: white !important;

@@ -23,6 +23,18 @@ const allprojects = [
         description: "A fullstack project creating an online T-shirt store. It was my first attempt at backend. You can create an account, add and order a product.",
         img: '/list_images/THub.png',
         src: 'https://github.com/SelmaBtt/theT-shirtHub',
+        demo: 'https://thet-shirthub.netlify.app/'
+    },
+    {
+        title: "Portfolio",
+        skills: [
+            "React",
+            "JavaScript",
+            "HTML & CSS",
+        ],
+        description: "This is the project you're looking at now to display my skills and projects. The upcoming updates will include responsivness",
+        img: '/list_images/portfolio-image_for-code.png',
+        src: 'https://github.com/SelmaBtt/My-portfolio',
         demo: ''
     }
 ];
