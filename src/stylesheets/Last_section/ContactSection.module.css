@@ -1,6 +1,6 @@
 .container{
     margin: 65px auto 0 -183px;
-    width: 1470px;
+    width: 100vw;
 }
 
 /* Tab section */
@@ -14,8 +14,8 @@
 .contentWrapper{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 61px 88px 61px 248px;
-    gap: 229px;
     font-size: inherit;
     border: var(--border);
     margin-top: -10px;
@@ -35,3 +35,16 @@
 .media svg{
     cursor: pointer;
 }
+
+/* Adjustments for bigger screens */
+@media screen and (min-width: 1750px){
+    .contentWrapper{
+        padding: 180px 88px 180px 248px;
+        gap: 2vw;
+    }
+    .media{
+        flex-direction: row;
+        gap: 2vw;
+    }
+}
+
