@@ -13,14 +13,18 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className={styled.appContainer}>
-      <Nav />
+    <>
+      <div className={styled.appContainer}>
+        <Nav />
+      </div>
       <WelcomeSection />
       <SmileIcon />
-      <SecondSection />
-      <Projects />
+      <div className={styled.appContainer}>
+        <SecondSection />
+        <Projects />
+      </div>
       <ContactSection />
-    </div>
+    </>
   )
 }
 

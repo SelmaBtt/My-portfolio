@@ -7,7 +7,7 @@
 .header{
     background-color: var(--tab-color);
     border: var(--border);
-    padding: 40px 0 29px 240px;
+    padding: 40px 200px;
     height: 60px;
 }
 
@@ -39,7 +39,7 @@
 /* Adjustments for bigger screens */
 @media screen and (min-width: 1750px){
     .contentWrapper{
-        padding: 180px 88px 180px 248px;
+        padding: 100px 88px 100px 248px;
         gap: 2vw;
     }
     .media{
@@ -48,3 +48,25 @@
     }
 }
 
+/* Adjustments for tablet screens */
+@media screen and (max-width: 1280px){
+    .container{
+        margin: 65px 70px 0 auto;
+        width: 90vw;
+    }
+    .contentWrapper{
+        flex-direction: column;
+        gap: 5vw;
+        padding: 61px 0;
+    }
+    .media{
+        flex-direction: row;
+        gap: 5vw;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .container{
+        width: 100%;
+    }
+}
