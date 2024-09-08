@@ -10,6 +10,12 @@ const allprojects = [
         description: "A group project redesigning a website to be more userfriendly.",
         src: "https://www.figma.com/design/3dTa4ZFkQzJ3avJL75LbD4/F%C3%A4rgdigst%C3%A4lld-protoyp?node-id=0-1&t=4UVFjqWzW7kYJzWK-1",
         img: '/list_images/campus1477.png'
+    },
+    {
+        title: "Chatify",
+        description: "This is the original design for my chat application Chatify.",
+        src: "https://www.figma.com/design/Sj9RuTDlzoldVpo5Iit3LK/Chatify?node-id=0-1",
+        img: '/list_images/chatifyFig.png'
     }
 ];
 

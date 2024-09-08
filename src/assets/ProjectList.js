@@ -1,16 +1,16 @@
 const allprojects = [
     {
-        title: "Delicious meals",
+        title: "Chatify",
         skills: [
             "React",
             "JavaScript",
             "HTML & CSS",
-            "Online API",
+            "JWT & Web storage",
         ],
-        description: "A simple project to fetch a online API and display meals and their details. The project that inspired this portfolio theme.",
-        img: '/list_images/DelMeal.png',
-        src: 'https://github.com/SelmaBtt/react-G-assignment',
-        demo: 'https://main--delicious-meals-foodapp.netlify.app/'
+        description: "A chat application to expand my knowledge in web security, implementing JSON Web Tokens, web storage, and input sanitization techniques.",
+        img: '/list_images/chatifyProjectImage.png',
+        src: 'https://github.com/SelmaBtt/chatify',
+        demo: 'https://chatify-selma.netlify.app/'
     },
     {
         title: "The T-shirt Hub",
@@ -24,6 +24,19 @@ const allprojects = [
         img: '/list_images/THub.png',
         src: 'https://github.com/SelmaBtt/theT-shirtHub',
         demo: 'https://thet-shirthub.netlify.app/'
+    },
+    {
+        title: "Delicious meals",
+        skills: [
+            "React",
+            "JavaScript",
+            "HTML & CSS",
+            "Online API",
+        ],
+        description: "A simple project to fetch a online API and display meals and their details. The project that inspired this portfolio theme.",
+        img: '/list_images/DelMeal.png',
+        src: 'https://github.com/SelmaBtt/react-G-assignment',
+        demo: 'https://main--delicious-meals-foodapp.netlify.app/'
     },
     {
         title: "Portfolio",
