@@ -15,6 +15,11 @@
     background-color: var(--div-background);
     border: var(--border);
     font-size: 32px;
-    padding-left: 34px;
+    padding: 17px;
     width: 507px;
+}
+
+.textContainer span{
+    font-size: 20px;
+    color: #DD3636;
 }
